@@ -42,7 +42,7 @@ return [self.imgnames[index] for i, index in enumerate(rank_id[0:maxres])]
 
 # Run the project:
 TO run the project follow the command given below:
-``sh
+```sh
 optional arguments:
   -dataset DATASET      Path to dataset
   -img_query IMG_QUERY  image to be search
