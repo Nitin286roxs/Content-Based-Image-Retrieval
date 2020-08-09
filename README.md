@@ -54,7 +54,7 @@ python3 run_cbir.py -dataset <PATH TO DATASET> -img_query <IMAGE TO BE SEARCH>
 ```
 Example:
 ```sh
-python3 run_cbir.py -dataset ../dataset -img_query ../dataset/56.jpg
+python3 run_cbir.py -dataset ./dataset -img_query ./dataset/56.jpg
 ```
 # Sample Output
 ![alt text](https://raw.githubusercontent.com/Nitin286roxs/Content-Based-Image-Retrieval/master/result1.png)
