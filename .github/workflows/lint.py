@@ -1,7 +1,5 @@
 #lint.py
-import glob
 import os
-import subprocess
 import sys
 
 from pylint import lint
