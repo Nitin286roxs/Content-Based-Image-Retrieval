@@ -4,7 +4,7 @@ import sys
 
 from pylint import lint
 
-THRESHOLD = 4
+THRESHOLD = 8
 
 os.system("find -regex '.*\.\(py\)' | xargs pylint --output-format=text > .pylint/pylint.log ")
 score = float(open(".pylint/pylint.log", "r").readlines()[-2].strip().split(" ")[6].split("/")[0])
