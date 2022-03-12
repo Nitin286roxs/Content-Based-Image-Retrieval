@@ -3,7 +3,6 @@ name: Pylint
 on:
   branches: [ master ] 
     paths:
-    - 'factorial.py' 
     - 'lint.py' 
 
 jobs:
